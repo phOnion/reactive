@@ -1,0 +1,17 @@
+{
+    "name": "onion/reactive",
+    "description": "A scheduler to use with RxPHP",
+    "require": {
+        "onion/event-loop": "dev-master",
+        "reactivex/rxphp": "^2.0",
+        "onion/promise": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onion\\Framework\\": "src/"
+        },
+        "files": [
+            "src/setup.php"
+        ]
+    }
+}
